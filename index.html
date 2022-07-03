@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Biblioteca do menu sanduíche-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" denfer></script>
+    <title>Intro page</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Snap">
+        <nav id="nav">
+            <button class="btn-mobile" onclick="openNav()">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </button>
+            
+            <ul id="menu">
+                <li><a href="javascript:void(0)" onclick="openNav()" class="closebtn">&times;</a></li>
+                <li ><a href="#" class="txtlist-recursos">Recursos <img src="images/icon-arrow-down.svg" alt="Seta"></a>
+                    <ul class="sub-menu">
+                        <li><a href="#"><img src="images/icon-todo.svg" alt="To do"> To do list</a></li>
+                        <li><a href="#"><img src="images/icon-calendar.svg" alt="Calendário"> Calendário</a></li>
+                        <li><a href="#"><img src="images/icon-reminders.svg" alt="Lembrete"> Lembretes</a></li>
+                        <li><a href="#"><img src="images/icon-planning.svg" alt="Planejamento"> Planejamento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="txtlist">Empresa <img src="images/icon-arrow-down.svg" alt="Seta"></a></li>
+                <li><a href="#" class="txtlist">Carreira</a></li>
+                <li><a href="#" class="txtlist">Sobre</a></li>
+                <li><a href="#" class="txtlist">Login</a></li>
+                <li><a href="#" class="txtlist">Cadastrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <section id="left">
+                <h1>Trabalhe remoto</h1>
+                <p>Tenha seu time conectado, não importa sua localização. Agilize processos, crie rotinas para seu time e veja a produtividade aumentar.</p>
+                <button>Saiba mais</button>
+                <picture>
+                    <img src="images/client-databiz.svg" alt="Databiz">
+                    <img src="images/client-audiophile.svg" alt="Audiophile">
+                    <img src="images/client-meet.svg" alt="Meet">
+                    <img src="images/client-maker.svg" alt="Maker">
+                </picture>
+            </section>
+            <section id="right">
+                <picture>
+                    <img src="images/image-hero-mobile.png" alt="Capa" id="heroimg">
+                </picture>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/YasminGonc" target="_blank">Yasmin Gonçalves</a>.
+    </footer>
+    
+</body>
+</html>
